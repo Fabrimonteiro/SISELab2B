@@ -3,13 +3,13 @@ class Counter {
     public Counter(int init) {
         cnt = init;
     }
-    public void increment() {
+    public synchronized void increment() {
         cnt++;
     }
-    public void decrement() {
+    public synchronized void decrement() {
         cnt--;
     }
-    public int value() {
+    public synchronized int value() {
         return cnt;
     }
 }
