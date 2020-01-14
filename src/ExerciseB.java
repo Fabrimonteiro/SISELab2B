@@ -1,4 +1,5 @@
 public class ExerciseB {
+    // update the number of interactions
     public static final int NUM_ITER = 5;
 
     static class MyThread extends Thread {
